@@ -1,10 +1,12 @@
 import reactLogo from '/assets/icons/react.svg'
 import viteLogo from '/assets/icons/vite.svg'
 import './App.css'
+import AppProvider from "@/infrastructure/app-providers/AppProvider";
 
 function App() {
   return (
     <>
+      <AppProvider />
       <div className='flex justify-center items-center'>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

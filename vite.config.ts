@@ -31,7 +31,7 @@ export default defineConfig(({ mode }: ConfigEnv) => {
         host: "localhost",
         port: parseInt(env.VITE_APP_PORT) || 4000,
       },
-      allowedHosts: [env.VITE_SHOPIFY_HOST_NAME?.replace(/^https?:\/\//, "")],
+      allowedHosts: [env.VITE_APP_URL?.replace(/^https?:\/\//, "")],
     },
     preview: {
       port: parseInt(env.VITE_APP_PORT) || 4000,

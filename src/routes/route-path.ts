@@ -3,4 +3,6 @@ export const routePaths = {
   page01: "/page-01",
   page02: "/page-02",
   page03: "/page-03",
+  pricing: "/pricing",
+  aboutUs: "/about-us",
 } as const;

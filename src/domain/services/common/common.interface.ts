@@ -5,6 +5,7 @@ import type { UseMutationResult, UseQueryResult } from "@tanstack/react-query";
 import { createCommonMock } from "./common.mock";
 import { CommonService } from "./common.service";
 import { env } from "@/infrastructure/env/env";
+import { useServiceMutation, useServiceQuery, type MutationResult, type QueryResult } from "@/infrastructure/plugins/tanstack";
 export interface ICommonService {
   getKeys(): Promise<string[]>;
   getItem(key: string): Promise<string | null>;

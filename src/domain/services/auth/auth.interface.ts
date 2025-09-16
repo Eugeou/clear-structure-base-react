@@ -2,10 +2,12 @@
  * Auth interface
  */
 
-import { env } from "process";
+import { env } from "@/infrastructure/env/env";
 import type { UserInfo } from "../../types/user";
 import { createAuthMock } from "./auth.mock";
 import type { UseMutationResult, UseQueryResult } from "@tanstack/react-query";
+import { useServiceMutation, useServiceQuery, type MutationResult, type QueryResult } from "@/infrastructure/plugins/tanstack";
+import { AuthService } from "./auth.service";
 
 export interface IAuthService {
     login(email: string, password: string): Promise<UserInfo>;
