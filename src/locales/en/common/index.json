@@ -1,0 +1,8 @@
+{
+  "setting": "Setting",
+  "logout": "Logout",
+  "createUser": "Create User",
+  "updateUser": "Update User",
+  "deleteUser": "Delete User",
+  "clearUser": "Clear User"
+}
