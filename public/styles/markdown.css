@@ -1,0 +1,424 @@
+.markdown h1 {
+  font-size: 1.875rem;
+  /* text-3xl */
+  line-height: 2.25rem;
+  font-weight: 600;
+  /* font-semibold */
+  margin-bottom: 0.75rem;
+}
+
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  margin-bottom: 0.66rem;
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  /* text-2xl */
+  line-height: 2rem;
+  font-weight: 600;
+  /* font-semibold */
+}
+
+.markdown h3 {
+  font-size: 1.25rem;
+  /* text-xl */
+  line-height: 1.75rem;
+  font-weight: 600;
+  /* font-semibold */
+}
+
+.markdown h4 {
+  font-size: 1.125rem;
+  /* text-lg */
+  line-height: 1.75rem;
+  font-weight: 600;
+  /* font-semibold */
+}
+
+.markdown h5 {
+  font-size: 1rem;
+  /* text-base */
+  line-height: 1.5rem;
+  font-weight: 600;
+  /* font-semibold */
+}
+
+.markdown h6 {
+  font-size: 0.875rem;
+  /* text-sm */
+  line-height: 1.25rem;
+  font-weight: 600;
+  /* font-semibold */
+}
+
+.markdown p {
+  font-size: 0.875rem; /* text-sm */
+  line-height: 22px;
+  margin-bottom: 8px;
+  white-space: pre-line;
+}
+
+.markdown p:last-child {
+  margin-bottom: 0;
+}
+
+.markdown a {
+  color: #005bd3;
+  /* text-[#005bd3] */
+  text-decoration: underline;
+  /* underline */
+  cursor: pointer;
+  /* cursor-pointer */
+}
+
+.markdown blockquote {
+  font-size: 0.875rem;
+  /* text-sm */
+  /* line-height: 1.25rem; */
+  border-left: 4px solid var(--primary-color);
+  /* border-l-4 border-primary */
+  padding: 1rem;
+  /* p-4 */
+  margin: 1rem 0;
+  /* my-4 */
+}
+
+.markdown pre {
+  font-size: 0.875rem;
+  /* text-sm */
+  /* line-height: 1.25rem; */
+}
+
+.markdown code {
+  font-size: 0.875rem;
+  /* text-sm */
+  /* line-height: 1.25rem; */
+  background-color: #f0f0f0;
+  /* bg-gray-300 */
+  padding: 0.25rem 0.5rem;
+  /* px-1 py-2 */
+  border-radius: 0.25rem;
+  /* rounded-sm */
+}
+
+.markdown ol {
+  list-style-type: decimal;
+  /* list-decimal */
+  padding-inline-start: 40px;
+  margin-block-start: 14px;
+  margin-block-end: 14px;
+}
+
+.markdown ul {
+  list-style-type: disc;
+  /* list-disc */
+  padding-inline-start: 40px;
+  margin-block-start: 14px;
+  margin-block-end: 14px;
+}
+
+.markdown li {
+  font-size: 0.875rem;
+  /* text-sm */
+  /* line-height: 1.25rem; */
+}
+
+.markdown li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.markdown table {
+  width: 100%;
+  /* w-full */
+}
+
+.markdown th {
+  font-size: 0.875rem;
+  /* text-sm */
+  /* line-height: 1.25rem; */
+  font-weight: bold;
+  /* font-bold */
+}
+
+.markdown td {
+  font-size: 0.875rem;
+  /* text-sm */
+  /* line-height: 1.25rem; */
+}
+
+.markdown hr {
+  border-top: 1px solid #d1d5db;
+  /* border-gray-300 */
+  margin: 1rem 0;
+  /* my-4 */
+}
+
+.markdown mark {
+  background-color: #f0f0f0;
+  /* bg-gray-300 */
+  padding: 0.25rem 0.5rem;
+  /* px-1 py-2 */
+  border-radius: 0.25rem;
+  /* rounded-sm */
+}
+
+.markdown.meta-social-content-agent ol:not(:last-child),
+.markdown.email-marketing-agent ol:not(:last-child),
+.markdown.blog-content-agent ol:not(:last-child),
+.markdown.google-ads-agent ol:not(:last-child) {
+  width: 100%;
+  column-count: 2;
+  column-gap: 20px;
+  padding: 0;
+  font-size: 14px;
+  padding-left: 16px;
+  word-wrap: break-word;
+}
+
+.markdown.meta-social-content-agent ol,
+.markdown.email-marketing-agent ol,
+.markdown.blog-content-agent ol,
+.markdown.google-ads-agent ol {
+  list-style-type: decimal;
+  /* list-decimal */
+  padding-inline-start: 16px;
+  margin-block-start: 12px;
+  margin-block-end: 12px;
+}
+
+.markdown.product-copy-agent h1 {
+  font-size: 1rem;
+  /* text-xl */
+  line-height: 1.25rem;
+  font-weight: 600;
+  /* font-semibold */
+}
+
+.markdown.meta-social-content-agent code,
+.markdown.email-marketing-agent code,
+.markdown.blog-content-agent code,
+.markdown.enhance-product-copy-agent ul {
+  padding-inline-start: 16px;
+  margin-block-start: 12px;
+  margin-block-end: 12px;
+}
+
+.markdown.enhance-product-copy-agent h1,
+.markdown.enhance-product-copy-agent h2,
+.markdown.enhance-product-copy-agent h3,
+.markdown.enhance-product-copy-agent h4,
+.markdown.enhance-product-copy-agent h5,
+.markdown.enhance-product-copy-agent h6 {
+  font-size: 13px;
+  /* text-xl */
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.markdown.enhance-product-copy-agent p {
+  font-size: 13px;
+  /* text-xl */
+}
+
+.markdown.enhance-product-copy-agent li {
+  font-size: 13px;
+  /* text-xl */
+}
+
+.markdown.google-ads-agent code,
+.markdown.product-copy-agent code,
+.markdown.bulk-product-copy-agent code {
+  background-color: #f0f0f0;
+  /* bg-gray-300 */
+  padding: 0.25rem 0.5rem;
+  /* px-1 py-2 */
+  border-radius: 0.25rem;
+  /* rounded-sm */
+}
+
+.markdown.brand-voice-ai-training h1,
+.markdown.brand-voice-ai-training h2,
+.markdown.brand-voice-ai-training h3,
+.markdown.brand-voice-ai-training h4,
+.markdown.brand-voice-ai-training h5,
+.markdown.brand-voice-ai-training h6,
+.markdown.brand-voice-ai-training p,
+.markdown.brand-voice-ai-training ul,
+.markdown.brand-voice-ai-training li {
+  font-size: 0.875rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown.brand-voice-ai-training h1 {
+  font-size: 2rem;
+}
+
+.markdown.brand-voice-ai-training h2 {
+  font-size: 1.5rem;
+}
+
+.markdown.brand-voice-ai-training h3 {
+  font-size: 1.17rem;
+}
+
+.markdown.meta-social-content-agent h1,
+.markdown.blog-content-agent h1,
+.markdown.email-marketing-agent h1 {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.markdown.meta-social-content-agent h2,
+.markdown.blog-content-agent h2,
+.markdown.email-marketing-agent h2 {
+  font-size: 16px;
+  line-height: 1rem;
+}
+
+.markdown.meta-social-content-agent h3,
+.markdown.blog-content-agent h3,
+.markdown.email-marketing-agent h3 {
+  font-size: 14px;
+  line-height: 0.75rem;
+}
+
+.markdown table {
+  box-shadow:
+    1px 1px 0px 0px #cccccc80 inset,
+    0px -1px 0px 0px #0000002b inset,
+    -1px 0px 0px 0px #00000021 inset,
+    1px 0px 0px 0px #00000021 inset;
+  border-radius: 12px;
+  overflow: hidden;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.markdown table th,
+.markdown table td {
+  vertical-align: text-top;
+}
+
+.markdown table th {
+  color: #303030;
+  padding: 12px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 450px;
+  border-bottom: 1px solid #e3e3e3;
+  background: #f7f7f7;
+  border-top: 1px solid #e3e3e3;
+}
+
+.markdown table th:first-child {
+  border-top-left-radius: 12px;
+  border-left: 1px solid #e3e3e3;
+}
+
+.markdown table th:last-child {
+  border-top-right-radius: 12px;
+  border-right: 1px solid #e3e3e3;
+}
+
+.markdown table td {
+  padding: 8px 12px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 450px;
+  border-bottom: 1px solid #e3e3e3;
+  color: #303030;
+  background: #fff;
+}
+
+.markdown table tr td:first-child {
+  border-left: 1px solid #e3e3e3;
+}
+
+.markdown table tr td:last-child {
+  border-right: 1px solid #e3e3e3;
+}
+
+.markdown table tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+
+.markdown table tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+
+.markdown.about-us h2,
+.markdown.release-notes h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.markdown.about-us h3,
+.markdown.release-notes h4,
+h3 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.markdown.about-us h4,
+.markdown.release-notes strong {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.markdown.about-us p {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+
+/* -------- MARKDOWN V2 ----------- */
+.markdown.markdown-v2 {
+  /* Common styles for key-issue and recommendation */
+  .key-issue,
+  .recommendation {
+    padding-block: 4px;
+
+    ul,
+    ol {
+      padding-inline-start: 16px;
+    }
+
+    > p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  /* Specific colors */
+  .key-issue > p {
+    color: #8E1F0B;
+  }
+
+  .recommendation > p {
+    color: #0C5132;
+  }
+
+  .conversion-impact {
+    ul,
+    ol {
+      padding-inline-start: 2px;
+      list-style-type: none;
+    }
+
+    > p {
+      font-size: 16px;
+      line-height: 20px;
+      color: #005BD3;
+    }
+  }
+}

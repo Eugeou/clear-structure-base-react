@@ -1,0 +1,65 @@
+@import url(./markdown.css);
+
+.secondary-action-button {
+  background: var(--p-color-bg-fill-tertiary);
+  padding: 3px 12px 3px 6px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  color: var(--p-color-text);
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease;
+
+  /* Hover state */
+  &:hover,
+  &:focus {
+    background: var(--p-color-bg-fill-tertiary-hover);
+  }
+
+  /* Active state */
+  &:active {
+    box-shadow: var(--p-shadow-button-inset);
+  }
+}
+
+@keyframes elastic {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  25% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1, 1.5);
+  }
+
+  75% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.content-wrapper {
+  position: relative;
+}
+
+.gradient-fade {
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  height: 32px;
+  margin-top: -24px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+  padding-bottom: 4px;
+}
+
+.see-more-button {
+  color: #3a65ff;
+  font-weight: 500;
+}

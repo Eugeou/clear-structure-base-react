@@ -1,5 +1,5 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import reactLogo from '/assets/icons/react.svg'
+import viteLogo from '/assets/icons/vite.svg'
 import './App.css'
 
 function App() {
